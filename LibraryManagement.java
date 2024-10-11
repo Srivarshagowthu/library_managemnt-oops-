@@ -95,8 +95,8 @@ public class LibraryManagement{
 		Book book2=new Book("the raise2","varsha1");
 		library.addbooks(book1);
 		library.addbooks(book2);
-		Member member=new Member("dhanush",101);
-		Librarian librarian=new Librarian("suresh",201);
+		Member member=new Member("mem1",101);
+		Librarian librarian=new Librarian("lib1",201);
 		library.availbooks();
 		librarian.assisteng_member(member,book1);
 		library.availbooks();
